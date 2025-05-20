@@ -32,8 +32,8 @@ export default function Home() {
             />
         </div>
             {/* Card Esquerda */}
-            <h2>AGENDAMENTOS</h2>
-          <Card className="mt-6">
+            <h2 className="font-bold uppercase mb-3 mt-6 text-xs text-gray-500 ">AGENDAMENTOS</h2>
+          <Card className="">
             <CardContent className="flex justify-between p-2
         ">
               <div className="flex flex-col gap-2 py-5 pl-5">
