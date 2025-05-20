@@ -32,7 +32,7 @@ export default function Home() {
             />
         </div>
           <Card className="mt-6">
-            <CardContent className="flex justify-between p-0
+            <CardContent className="flex justify-between p-2
         ">
           {/* Card Esquerda */}
               <div className="flex flex-col gap-2 py-5 pl-5">
@@ -47,7 +47,7 @@ export default function Home() {
               </div>
 
           {/* Card Direita */}
-              <div className="flex flex-col items-center justify-center">
+              <div className="flex flex-col items-center justify-center px-5 border-l-2 border-solid">
                 <p className="text-sm">Maio</p>
                 <p className="text-2xl">20</p>
                 <p className="text-sm">10:17</p>
