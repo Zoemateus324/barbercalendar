@@ -31,10 +31,11 @@ export default function Home() {
             fill className="object-cover"
             />
         </div>
+            {/* Card Esquerda */}
+            <h2>AGENDAMENTOS</h2>
           <Card className="mt-6">
             <CardContent className="flex justify-between p-2
         ">
-          {/* Card Esquerda */}
               <div className="flex flex-col gap-2 py-5 pl-5">
                 <Badge className="w-fit ">Confirmado</Badge>
                 <h3 className="">Corte de Cabelo</h3>
